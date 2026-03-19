@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluent-manager"
+version = "1.0.0"
+authors = [
+    { name = "Andrii Bogdanovych", email = "a@bogdanovych.org" }
+]
+description = "Lightweight Fluent localisation manager with automatic locale fallback"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fluent==0.10.0",
+    "fluent-runtime==0.4.0",
+]
+[dependency-groups]
+dev = [
+    "build==1.4.0",
+    "pre_commit==4.5.1",
+    "black==26.3.1",
+    "isort==8.0.1",
+    "twine==6.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/BogdanovychA/fluent-manager"
