@@ -345,17 +345,10 @@ wheels = [
 ]
 
 [[package]]
-name = "fluent"
-version = "0.10.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/8b/8b/77301989a8ce5a50e5b23fcf9c6668b9bc08505f51a77a33ce9bea484569/fluent-0.10.0.tar.gz", hash = "sha256:b5a270e6e4425cdf140ea10d1a7d9c1af713dd00d61b0412f05cd22e1ff84324", size = 13288, upload-time = "2018-12-13T15:58:03.888Z" }
-
-[[package]]
 name = "fluent-manager"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [
-    { name = "fluent" },
     { name = "fluent-runtime" },
 ]
 
@@ -369,10 +362,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "fluent", specifier = "==0.10.0" },
-    { name = "fluent-runtime", specifier = "==0.4.0" },
-]
+requires-dist = [{ name = "fluent-runtime", specifier = "==0.4.0" }]
 
 [package.metadata.requires-dev]
 dev = [
