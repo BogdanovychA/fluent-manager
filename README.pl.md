@@ -1,5 +1,7 @@
 # fluent-manager
 
+🌐 Tłumaczenia: [🇬🇧 English](https://github.com/BogdanovychA/fluent-manager/blob/main/README.md) · [🇺🇦 Українська](https://github.com/BogdanovychA/fluent-manager/blob/main/README.uk.md)
+
 Lekki menedżer lokalizacji oparty na [Project Fluent](https://projectfluent.org/) z automatycznym fallback między lokalizacjami.
 
 ## Instalacja
