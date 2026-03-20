@@ -1,5 +1,7 @@
 # fluent-manager
 
+[🌐 Translations: 🇺🇦 Українська](https://github.com/BogdanovychA/fluent-manager/blob/main/README.uk.md)
+
 Lightweight [Project Fluent](https://projectfluent.org/) localisation manager with automatic locale fallback.
 
 ## Installation

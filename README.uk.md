@@ -1,5 +1,7 @@
 # fluent-manager
 
+[🌐 Переклади: 🇬🇧 English](https://github.com/BogdanovychA/fluent-manager/blob/main/README.md)
+
 Легковісний менеджер локалізації на основі [Project Fluent](https://projectfluent.org/) з автоматичним fallback між локалями.
 
 ## Встановлення
