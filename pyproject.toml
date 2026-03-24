@@ -35,3 +35,4 @@ where = ["src"]
 [project.urls]
 Repository = "https://github.com/BogdanovychA/fluent-manager"
 "Bug Tracker" = "https://github.com/BogdanovychA/fluent-manager/issues"
+"PyPI Stats" = "https://pypistats.org/packages/fluent-manager"
