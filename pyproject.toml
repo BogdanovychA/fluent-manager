@@ -10,6 +10,7 @@ authors = [
 ]
 description = "Lightweight Fluent localisation manager with automatic locale fallback"
 readme = "README.md"
+keywords = ["fluent", "localization", "i18n", "l10n", "python", "translation"]
 license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -29,10 +30,11 @@ dev = [
     "twine==6.2.0",
 ]
 
-[tool.setuptools.packages.find]
-where = ["src"]
-
 [project.urls]
-Repository = "https://github.com/BogdanovychA/fluent-manager"
+"Homepage" = "https://www.bogdanovych.org"
+"Repository" = "https://github.com/BogdanovychA/fluent-manager"
 "Bug Tracker" = "https://github.com/BogdanovychA/fluent-manager/issues"
 "PyPI Stats" = "https://pypistats.org/packages/fluent-manager"
+
+[tool.setuptools.packages.find]
+where = ["src"]
