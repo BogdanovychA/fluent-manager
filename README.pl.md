@@ -1,5 +1,7 @@
 # fluent-manager
 
+[![DOI](https://zenodo.org/badge/1186346418.svg)](https://doi.org/10.5281/zenodo.19492979)
+
 🌐 Tłumaczenia: [🇬🇧 English](https://github.com/BogdanovychA/fluent-manager/blob/main/README.md) · [🇺🇦 Українська](https://github.com/BogdanovychA/fluent-manager/blob/main/README.uk.md)
 
 Lekki menedżer lokalizacji oparty na [Project Fluent](https://projectfluent.org/) z automatycznym fallback między lokalizacjami.

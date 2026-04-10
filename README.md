@@ -1,5 +1,7 @@
 # fluent-manager
 
+[![DOI](https://zenodo.org/badge/1186346418.svg)](https://doi.org/10.5281/zenodo.19492979)
+
 Translations: [🇺🇦 Українська](https://github.com/BogdanovychA/fluent-manager/blob/main/README.uk.md) · [🇵🇱 Polski](https://github.com/BogdanovychA/fluent-manager/blob/main/README.pl.md)
 
 Lightweight [Project Fluent](https://projectfluent.org/) localisation manager with automatic locale fallback.

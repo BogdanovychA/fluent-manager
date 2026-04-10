@@ -33,6 +33,7 @@ dev = [
 [project.urls]
 "Homepage" = "https://www.bogdanovych.org"
 "Repository" = "https://github.com/BogdanovychA/fluent-manager"
+"DOI" = "https://doi.org/10.5281/zenodo.19492979"
 "Bug Tracker" = "https://github.com/BogdanovychA/fluent-manager/issues"
 "PyPI Stats" = "https://pypistats.org/packages/fluent-manager"
 
