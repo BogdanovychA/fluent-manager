@@ -1,6 +1,6 @@
 # fluent-manager
 
-[![DOI](https://zenodo.org/badge/1186346418.svg)](https://doi.org/10.5281/zenodo.19492979)
+[![DOI](https://zenodo.org/badge/1186346418.svg)](https://doi.org/10.5281/zenodo.19492979) [![PyPI Downloads](https://static.pepy.tech/personalized-badge/fluent-manager?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/fluent-manager)
 
 Translations: [🇺🇦 Українська](https://github.com/BogdanovychA/fluent-manager/blob/main/README.uk.md) · [🇵🇱 Polski](https://github.com/BogdanovychA/fluent-manager/blob/main/README.pl.md)
 
