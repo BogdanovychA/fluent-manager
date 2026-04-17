@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fluent-manager"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
     { name = "Andrii Bogdanovych", email = "a@bogdanovych.org" }
 ]
@@ -19,15 +19,14 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "fluent-runtime==0.4.0",
+    "fluent-runtime>=0.4.0",
 ]
 [dependency-groups]
 dev = [
-    "build==1.4.0",
-    "pre_commit==4.5.1",
-    "black==26.3.1",
-    "isort==8.0.1",
-    "twine==6.2.0",
+    "pre_commit",
+    "black",
+    "isort",
+    "twine",
 ]
 
 [project.urls]
@@ -39,3 +38,11 @@ dev = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+skip-string-normalization = true
+
+[tool.isort]
+profile = "black"
