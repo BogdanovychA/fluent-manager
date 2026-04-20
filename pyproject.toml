@@ -34,7 +34,7 @@ dev = [
 "Repository" = "https://github.com/BogdanovychA/fluent-manager"
 "DOI" = "https://doi.org/10.5281/zenodo.19492979"
 "Bug Tracker" = "https://github.com/BogdanovychA/fluent-manager/issues"
-"PyPI Stats" = "https://pypistats.org/packages/fluent-manager"
+"AI Agent Skill" = "https://skills.sh/bogdanovycha/fluent-manager/fluent-manager"
 
 [tool.setuptools.packages.find]
 where = ["src"]
