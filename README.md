@@ -73,6 +73,15 @@ Retrieves a localised string by key with optional variables.
 
 List of all available locales detected from the filesystem.
 
+## AI Agent Skill
+
+This repository contains a specialised skill for AI agents (such as Gemini CLI). It helps the agent provide expert assistance in writing Python code and integrating this library into your projects.
+
+To install the skill, run:
+```bash
+npx skills add BogdanovychA/fluent-manager --skill fluent-manager
+```
+
 ## Links
 
 - [Project Fluent](https://projectfluent.org/)

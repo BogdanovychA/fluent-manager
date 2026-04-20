@@ -330,7 +330,7 @@ wheels = [
 
 [[package]]
 name = "fluent-manager"
-version = "1.0.1"
+version = "1.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "fluent-runtime" },
@@ -345,7 +345,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "fluent-runtime", specifier = ">=0.4.0" }]
+requires-dist = [{ name = "fluent-runtime", specifier = ">=0.3.0" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -357,30 +357,27 @@ dev = [
 
 [[package]]
 name = "fluent-runtime"
-version = "0.4.0"
+version = "0.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "attrs" },
     { name = "babel" },
     { name = "fluent-syntax" },
     { name = "pytz" },
-    { name = "typing-extensions" },
+    { name = "six" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/dc/54/94bbd857443565a5776027165fe1e2634d836681d7d9c8992a2fd0ce8302/fluent.runtime-0.4.0.tar.gz", hash = "sha256:cb5ef96a58a3f67acaaca046d1201d202a1ebf2823e5e664370f359bae20574d", size = 17591, upload-time = "2023-03-16T11:10:35.165Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2a/1e/29592d21b9887c0d3941cf72dd31226d2c26c99732b3cc02b2e09064af98/fluent.runtime-0.3.tar.gz", hash = "sha256:d8a81a36d111ba3e66af27f9224e94ef305cf3bec407c3f98a7c597eef554652", size = 11206, upload-time = "2019-10-23T15:28:12.587Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e5/89/a19b0bdfc74977b44aca2ad2e0600fd89c778184fcbb7fc44ba1002cc7b5/fluent.runtime-0.4.0-py2.py3-none-any.whl", hash = "sha256:51fd02582c2363e1106d7051642967a1b7f406dd9c317bd4600a73ede40c5146", size = 15627, upload-time = "2023-03-16T11:10:33.43Z" },
+    { url = "https://files.pythonhosted.org/packages/6c/43/984da90b989932476ad76ca003f9a664ce6a6ec01f69ef2c52dfaeff08d0/fluent.runtime-0.3-py2.py3-none-any.whl", hash = "sha256:8d41d4bf4cb19039370e14de78f2991cae9721d44e66165989a69ff5c22d90f0", size = 13702, upload-time = "2019-10-23T15:28:11.338Z" },
 ]
 
 [[package]]
 name = "fluent-syntax"
-version = "0.19.0"
+version = "0.17.0"
 source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/51/52/de75f2faf499ed5a089acff2ab8bda5fc3b8db8a3f1615428ef9ccbf1917/fluent.syntax-0.19.0.tar.gz", hash = "sha256:920326d7f46864b9758f0044e9968e3112198bc826acee16ddd8f11d359004fd", size = 15039, upload-time = "2023-03-16T11:03:24.023Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3b/b3/27d30f838a5a232c106467167a39be3d456d59c08d8d968d3bd61e5b272e/fluent.syntax-0.17.0.tar.gz", hash = "sha256:ac3db2f77d62b032fdf1f17ef5c390b7801a9e9fb58d41eca3825c0d47b88d79", size = 12537, upload-time = "2019-09-10T09:53:51.565Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/54/28/475734afb670bf7932caa1828183a4687cac51111950b9fb633c4f976afc/fluent.syntax-0.19.0-py2.py3-none-any.whl", hash = "sha256:b352b3475fac6c6ed5f06527921f432aac073d764445508ee5218aeccc7cc5c4", size = 16432, upload-time = "2023-03-16T11:03:21.934Z" },
+    { url = "https://files.pythonhosted.org/packages/f4/8e/2bb1faa3ec29f52a5609bc1712227cfed8a808671448e2b450c65411135c/fluent.syntax-0.17.0-py2.py3-none-any.whl", hash = "sha256:e26be470aeebe4badd84f7bb0b648414e0f2ef95d26e5336d634af99e402ea61", size = 14376, upload-time = "2019-09-10T09:53:49.844Z" },
 ]
 
 [[package]]
@@ -848,6 +845,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/1c/03/e834bcd866f2f8a49a85eaff47340affa3bfa391ee9912a952a1faa68c7b/secretstorage-3.5.0.tar.gz", hash = "sha256:f04b8e4689cbce351744d5537bf6b1329c6fc68f91fa666f60a380edddcd11be", size = 19884, upload-time = "2025-11-23T19:02:53.191Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b7/46/f5af3402b579fd5e11573ce652019a67074317e18c1935cc0b4ba9b35552/secretstorage-3.5.0-py3-none-any.whl", hash = "sha256:0ce65888c0725fcb2c5bc0fdb8e5438eece02c523557ea40ce0703c266248137", size = 15554, upload-time = "2025-11-23T19:02:51.545Z" },
+]
+
+[[package]]
+name = "six"
+version = "1.17.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81", size = 34031, upload-time = "2024-12-04T17:35:28.174Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274", size = 11050, upload-time = "2024-12-04T17:35:26.475Z" },
 ]
 
 [[package]]

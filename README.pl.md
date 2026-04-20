@@ -73,6 +73,15 @@ Zwraca zlokalizowany ciąg znaków według klucza z opcjonalnymi zmiennymi.
 
 Lista wszystkich dostępnych lokalizacji wykrytych z systemu plików.
 
+## Skill dla agentów AI
+
+To repozytorium zawiera specjalistyczny skill dla agentów AI (takich jak Gemini CLI). Pomaga on agentowi w zapewnieniu eksperckiej pomocy przy pisaniu kodu w języku Python i integracji tej biblioteki w Twoich projektach.
+
+Aby zainstalować skill, wykonaj:
+```bash
+npx skills add BogdanovychA/fluent-manager --skill fluent-manager
+```
+
 ## Linki
 
 - [Project Fluent](https://projectfluent.org/)

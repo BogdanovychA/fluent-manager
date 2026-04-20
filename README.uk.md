@@ -73,6 +73,15 @@ message = lang_manager.get("welcome-message", user_name="Андрій")
 
 Список усіх доступних локалей, визначених з файлової системи.
 
+## Скіл для ШІ-агентів
+
+Цей репозиторій містить спеціалізований скіл (skill) для ШІ-агентів (наприклад, Gemini CLI). Він допомагає агенту надавати експертну допомогу у написанні Python-коду та інтеграції цієї бібліотеки у ваші проєкти.
+
+Щоб встановити скіл, виконайте:
+```bash
+npx skills add BogdanovychA/fluent-manager --skill fluent-manager
+```
+
 ## Посилання
 
 - [Project Fluent](https://projectfluent.org/)
