@@ -5,7 +5,7 @@ version: 1.0.2
 repository: https://github.com/BogdanovychA/fluent-manager
 ---
 
-# `fluent-manager` Skill
+# Fluent Manager (fluent-manager) Skill
 
 Use this skill to implement and manage localisations in Python projects using Project Fluent.
 
