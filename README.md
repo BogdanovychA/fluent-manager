@@ -1,5 +1,7 @@
 # fluent-manager
 
+![Made in Ukraine](https://img.shields.io/badge/Made%20in-Ukraine-blue?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCI%2BCjxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjgwMCIgZmlsbD0iIzAwNTdCNyIvPgo8cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI0MDAiIHk9IjQwMCIgZmlsbD0iI0ZGRDcwMCIvPgo8L3N2Zz4%3D)
+
 [![DOI](https://zenodo.org/badge/1186346418.svg)](https://doi.org/10.5281/zenodo.19492979) [![PyPI Downloads](https://static.pepy.tech/personalized-badge/fluent-manager?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/fluent-manager) ![PyPI - License](https://img.shields.io/pypi/l/fluent-manager?logoColor=grey&color=blue) ![PyPI - Version](https://img.shields.io/pypi/v/fluent-manager?logoColor=grey&color=blue)
 
 Translations: [🇺🇦 Українська](https://github.com/BogdanovychA/fluent-manager/blob/main/README.uk.md) · [🇵🇱 Polski](https://github.com/BogdanovychA/fluent-manager/blob/main/README.pl.md)
